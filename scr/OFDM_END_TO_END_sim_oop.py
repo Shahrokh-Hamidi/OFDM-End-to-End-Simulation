@@ -238,8 +238,8 @@ class Detector:
 
 if __name__ == '__main__':
 
-    len_data = 220
-    num_subcarriers = 64
+    len_data = 476
+    num_subcarriers = 128
     num_pilots = 8
     num_bits_per_symb = 4
     num_cyclic_prefix = int(num_subcarriers/4)
