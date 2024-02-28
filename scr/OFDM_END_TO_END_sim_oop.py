@@ -214,8 +214,8 @@ class Detector:
         ax.tick_params(axis='x', colors='w')
         ax.tick_params(axis='y', colors='w')
         plt.title('   16-QAM     64 sub-carriers', color = 'w')
-        plt.xlim(-5,5)
-        plt.ylim(-5,5)
+        plt.xlim(-6,6)
+        plt.ylim(-6,6)
         plt.grid(alpha = 0.3)
         plt.legend()
         plt.show()
@@ -238,8 +238,8 @@ class Detector:
 
 if __name__ == '__main__':
 
-    len_data = 476
-    num_subcarriers = 128
+    len_data = 476 
+    num_subcarriers = 128 
     num_pilots = 8
     num_bits_per_symb = 4
     num_cyclic_prefix = int(num_subcarriers/4)
@@ -260,7 +260,7 @@ if __name__ == '__main__':
     utils = Utils()
     channel = Channel()
     detector = Detector()
-    method_ = 'MMSE'   #'matched filtering'    'zero forcing'
+    equalizer = 'MMSE'   #'matched filtering'    'zero forcing'
 
     bits_of_info_serial = dataGen.DATA_generation(len_data)
 
@@ -290,7 +290,7 @@ if __name__ == '__main__':
     
     channel.channel_impulse_response_visualization(channel_impulse_response_est)
     
-    symbols_estimation = detector.subcarrier_data_estimation(subcarrier_data_pilot_frequency_rx, channel_impulse_response_est, method_) #
+    symbols_estimation = detector.subcarrier_data_estimation(subcarrier_data_pilot_frequency_rx, channel_impulse_response_est, equalizer) #
 
     detector.constellation_vis(symbols_estimation, symbols_info)
 
