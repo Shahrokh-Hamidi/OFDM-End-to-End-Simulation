@@ -1,4 +1,5 @@
 - This repository contains an end-to-end system simulation for SISO OFDM system analysis
+- The project has been coded in Python3
 - For the data retrieval the following equalizers have been implemented:
      - zero-forcing
      - matched-filtering
