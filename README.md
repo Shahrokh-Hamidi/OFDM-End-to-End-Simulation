@@ -10,23 +10,18 @@
 - The number of sub-carriers is 128 out of which 9 of them are pilot signals that have been used to estimate the channel
 
 
+![Channel_IPR](https://github.com/Shahrokh-Hamidi/OFDM-End-to-End-simulation/assets/156338354/1a6de366-d331-4496-b09f-37c30c6f78bc)
 
-![Channel_IPR](https://github.com/Shahrokh-Hamidi/OFDM-End-to-End-simulation/assets/156338354/fdeada23-e152-40d9-9c1f-b8873018c63f)
 
 
-![Constellation](https://github.com/Shahrokh-Hamidi/OFDM-End-to-End-simulation/assets/156338354/7cdf77a5-7ef3-42cd-bf1c-c2d916cd7156)
 
+![Constellation](https://github.com/Shahrokh-Hamidi/OFDM-End-to-End-simulation/assets/156338354/d6fa784e-8781-4a6f-800c-bc312043e1cc)
 
 
 
  - Following is another example based on a differrnt wireless channel with 4 taps: h = [1,   j,   0.1 + 0.5j,   0.2 + 0.2j]
 
-![Channel_IPR](https://github.com/Shahrokh-Hamidi/OFDM-End-to-End-simulation/assets/156338354/4529b89e-d6f7-4aa0-9005-c0d6ee9e1c23)
+![Channel_IPR](https://github.com/Shahrokh-Hamidi/OFDM-End-to-End-simulation/assets/156338354/e78c72fa-da38-4f48-b9e2-61fdb5c6e5d3)
 
 
-
-
-
-
-
-![Constellation](https://github.com/Shahrokh-Hamidi/OFDM-End-to-End-simulation/assets/156338354/00448f67-4562-4cad-8bd7-d06afa1f709b)
+![Constellation](https://github.com/Shahrokh-Hamidi/OFDM-End-to-End-simulation/assets/156338354/3435e4a3-1acc-4a60-a628-8374ede2ff20)
