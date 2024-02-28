@@ -256,11 +256,11 @@ if __name__ == '__main__':
 
 
     pilot_value = 3 + 3j
-
+   
     utils = Utils()
     channel = Channel()
     detector = Detector()
-
+    method_ = 'MMSE'   #'matched filtering'    'zero forcing'
 
     bits_of_info_serial = dataGen.DATA_generation(len_data)
 
@@ -290,7 +290,7 @@ if __name__ == '__main__':
     
     channel.channel_impulse_response_visualization(channel_impulse_response_est)
     
-    symbols_estimation = detector.subcarrier_data_estimation(subcarrier_data_pilot_frequency_rx, channel_impulse_response_est, 'MMSE') #'matched filtering') #'zero forcing')
+    symbols_estimation = detector.subcarrier_data_estimation(subcarrier_data_pilot_frequency_rx, channel_impulse_response_est, method_) #
 
     detector.constellation_vis(symbols_estimation, symbols_info)
 
