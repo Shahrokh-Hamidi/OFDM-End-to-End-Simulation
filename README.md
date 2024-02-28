@@ -1,5 +1,5 @@
 - This repository contains an end-to-end system simulation for SISO OFDM system analysis
-- For the channel estimation the fowlloing have been implemented:
+- For the data retrieval the fowlloing have been implemented:
      - zero forcing
      - matched filtering
      - MMSE
