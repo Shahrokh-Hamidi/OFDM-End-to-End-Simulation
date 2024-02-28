@@ -4,7 +4,7 @@
      - matched filtering
      - MMSE
 
-- In the following example the impulse response of the channel has been set as an FIR system with 4 taps: h = [1, j, 0.1 + 0.5j, 0.2 + 0.2j]
+- In the following example the impulse response of the channel has been set as an FIR system with 4 taps: h = [1,   j,   0.1 + 0.5j,   0.2 + 0.2j]
 - The SNR is 30 dB and the constellation is based on 16-QAM
 - The number of sub-carriers is 64 out of which 9 of them are pilot signals that have been used to estimate the channel
 
