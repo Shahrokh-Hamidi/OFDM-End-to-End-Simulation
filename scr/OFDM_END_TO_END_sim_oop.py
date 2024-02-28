@@ -301,4 +301,4 @@ if __name__ == '__main__':
 
     bits_estimation = utils.map_symb_to_bit(symbols_estimation).reshape(-1)
 
-    #print(f'Error {abs(bits_estimation - bits_of_info_serial)} ')
+    
