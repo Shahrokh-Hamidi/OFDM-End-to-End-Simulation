@@ -1,8 +1,8 @@
 - This repository contains an end-to-end simulation for a SISO OFDM system
 - For the channel estimation these three methods have been implemented:
-     zero forcing
-     matched filtering
-     MMSE
+     - zero forcing
+     - matched filtering
+     - MMSE
 
 - In the following example the impulse response of the channel has been set as an FIR system with 4 taps: [1, j, 0.1 + 0.5j, 0.2 + 0.2j]
 - The snr is 30 dB and the constellation is based on 16 QAM
