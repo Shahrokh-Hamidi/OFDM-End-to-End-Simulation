@@ -141,7 +141,7 @@ class Channel:
         H = np.fft.fft(channel_impulse_response, num_subcarriers)
         plt.plot(abs(data), 'k', label = 'estimated impulse response', linewidth = 2)
         plt.plot(abs(H), 'r', label = 'true impulse response', linewidth = 2)
-        plt.xlabel('subcarrier index', fontsize = 16)
+        plt.xlabel('sub-carrier index', fontsize = 16)
         plt.ylabel('|H(f)|', fontsize = 16)
         plt.title('channel impulse response', fontsize = 14)
         plt.legend()
@@ -213,7 +213,7 @@ class Detector:
         plt.ylabel('Imag', fontsize = 16)
         ax.tick_params(axis='x', colors='w')
         ax.tick_params(axis='y', colors='w')
-        plt.title('   16-QAM     64 sub-carriers', color = 'w')
+        plt.title(f'   16-QAM     {num_subcarriers} sub-carriers', color = 'w')
         plt.xlim(-6,6)
         plt.ylim(-6,6)
         plt.grid(alpha = 0.3)
@@ -238,7 +238,7 @@ class Detector:
 
 if __name__ == '__main__':
 
-    len_data = 476 
+    len_data = 476   
     num_subcarriers = 128 
     num_pilots = 8
     num_bits_per_symb = 4
