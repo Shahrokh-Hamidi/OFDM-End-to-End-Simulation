@@ -164,7 +164,7 @@ def subcarrier_data_estimation(data, h, method):
     
     if method == 'MMSE':
 
-        H = np.conj(h)/(abs(h)**2 + 0.001)
+        H = np.conj(h)/(abs(h)**2 + 0.1)
         return (data*H)[subcarrier_carrying_data_index]
 
 
