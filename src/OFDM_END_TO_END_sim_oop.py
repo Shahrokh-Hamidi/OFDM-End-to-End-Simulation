@@ -1,5 +1,8 @@
 # Created by Shahrokh Hamidi
 # PhD., Electrical & Computer Engineering
+# 2024
+# shahrokh.hamidi@uwaterloo.ca
+# shahrokh.hamidi@gmail.com
 
 
 
